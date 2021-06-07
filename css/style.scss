@@ -1,0 +1,78 @@
+$mainColor: #FFDF65;
+$secColor: #FF785E;
+$textColor: #494846;
+.warp{
+    @import "bootstarp5/bootstrap";
+    // width: 1400px;
+    margin: 0 auto;
+    .product{
+        background-color: #F8F9FA ;
+        .btn-mainColor{
+            &:hover{
+                background-color: $secColor;
+            }
+        }
+        .follwBtn{
+            &:hover{
+                .fa-heart{
+                    color: $secColor;
+                }
+            }
+        }
+    }
+    .navbarMenu{
+        .nav-link.active, .warp .nav-pills .show > .nav-link {
+            color: black;
+            font-weight: bold;
+            background-color: #fff;
+            padding-bottom: 30px;
+            border-bottom: 3px solid $mainColor;
+            border-radius: 0rem;
+        }
+    }
+    .mainMenu{
+        #pills-project{
+            img{
+                width: 100%;
+            }
+        }
+        .justified-text{
+            text-align: justify;
+        }
+        hr{
+            opacity:1;
+        }
+    }
+    .textSpac1{
+        letter-spacing: 5px;   
+    }
+    .sponsoTitle{
+        background-color: #F8F9FA ;
+    }
+    .quantityBox{
+        background-color: #858377;
+        
+    }
+    .mainText{
+        color: #858377;
+        line-height: 23px;
+        letter-spacing: 3px;  
+    }
+    .sideBar{
+        height: 100vh;
+    }
+    .box2{
+        .btn-mainColor{
+            &:hover{
+                background-color: $secColor;
+                color: white !important;
+            }
+        }
+    }
+    // .textBox{
+    //     margin-bottom: 45px;
+    // }
+    .footer{
+        letter-spacing: 2px;
+    }
+}
